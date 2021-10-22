@@ -5,3 +5,5 @@ function save() {
    a.push(b);
    //clears field
   document.getElementById('word').value='';
+  window.alert(a)
+}
