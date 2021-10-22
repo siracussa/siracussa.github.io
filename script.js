@@ -15,9 +15,8 @@ function getName() {
   location.href = "two.html";
 }
 
-var c;
 function getUser() {
-  c = localStorage.getItem('uName');
+  var c = localStorage.getItem('uName');
   document.getElementById('placeholder').innerHTML = "Hello, " + c;
 }
 
