@@ -1,8 +1,8 @@
-var a;
+/*var a;
 function getName() {
   a = document.getElementById('username').value;
   window.alert(a);
-}
+}*/
 
 var b;
 function getName() {
