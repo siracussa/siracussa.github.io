@@ -23,7 +23,7 @@ function getUser() {
 function saveName() {
   var fieldValue = document.getElementById('textfield').value;
   localStorage.setItem('userName', fieldValue)';
-  location.href = "two.html";
+  window.location.href = "two.html";
 }
 
   
